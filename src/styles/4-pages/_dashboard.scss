@@ -1,0 +1,50 @@
+.progress-sub-text{
+    color: #bcbdc1;
+    font-size: 12px;
+    font-family: $lato-semibold;
+    font-weight: 900;
+}
+
+.progress-main-text{
+    color: #3c3d41;
+    font-size: 30px;
+    font-family: $lato-semibold;
+    font-weight: 900;
+}
+
+
+.chart-tooltip-name{
+    color: #cfced3;
+    font-size: 12px;
+    font-family: $lato-semibold;
+    font-weight: 900;
+}
+
+.progress-success{
+    color: #2fac42 ;
+}
+.progress-neg{
+    color: #e8472a;
+}
+
+.icon-progress{
+    height: 20px;
+    width: 20px;
+}
+
+.icon-progress-success{
+    @extend .icon-progress;
+    transform: rotate(90deg);
+}
+.icon-progress-fail{
+    @extend .icon-progress;
+    transform: rotate(-90deg);
+}
+
+.card-style{
+    height: 230px;
+    .chart-style{
+        position: relative;
+        top: -60px;
+    }
+}
